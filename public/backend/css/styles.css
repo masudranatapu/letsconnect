@@ -1,0 +1,428 @@
+#auth {
+    margin-top: 10rem;
+}
+.badge {
+    margin-bottom: 6px;
+}
+button.vcard-info-items-delete {
+    float: right;
+    margin-top: -13.8px;
+}
+
+.dashboard_card .card {
+    border: 1px solid #363f4d4f;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.dashboard_card .subheader {
+    font-size: 11px;
+    color: #363f4d;
+    font-weight: bold;
+}
+
+.dashboard_card  .h1 {
+    color: #ed6b4d;
+    font-weight: 600;
+}
+
+.menu_bar {
+    background: #363f4d;
+    padding: 0 !important;
+    min-height: 38px !important;
+}
+
+.menu_bar .nav-link {
+    color: #fff !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    border-radius: 0px !important;
+}
+
+.menu_bar .nav-item.active .nav-link {
+    color: #ed6b4d !important;
+    background: #242a33;
+}
+
+.language_dropdown {
+    height: 300px !important;
+    overflow-x: auto;
+    min-width: 190px;
+}
+
+
+footer.footer {
+    color: #363f4d;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 992px){
+    .navbar .dropdown-menu.language_dropdown {
+        left: -56px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navbar .dropdown-menu.language_dropdown {
+        left: -92px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .menu_bar .dropdown-item {
+        color: #b4b4b4 !important;
+    }
+}
+
+
+
+.fixed.bottom-0.inset-x-0.z-50.js-cookie-consent.cookie-consent p {
+    color: #000 !important;
+}
+a.btn.btn-primary:hover{
+    background: #000000 !important;
+}
+button.btn.btn-primary{
+    background: #ed6b4d !important;
+}
+button.btn.btn-primary:hover{
+    background: #000000 !important;
+}
+
+.tabs_menu ul {margin: 0;padding: 0;list-style: none;}
+
+.tabs_menu ul li {display: inline-block;}
+
+.tabs_menu {
+    border-bottom: 1px solid #dee2e6;
+    padding: 0;
+}
+
+.tabs_menu .nav-link.active {
+    color: #363f4d;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    font-weight: 600;
+}
+
+.tabs_menu .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    font-size: 14px;
+    padding: 12px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+}
+.tabs_menu .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color:transparent;
+}
+
+#more-products .row {
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    margin: 0px 0px;
+    margin-bottom: 15px;
+    padding: 9px;
+}
+
+.card_style{
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    margin: 0px 0px;
+    margin-bottom: 15px;
+    padding: 9px;
+}
+
+
+.signature_template .card-body {
+    max-height: 280px;
+    overflow-x: auto;
+}
+
+.signature_template .card-header {
+    padding: 12px 17px;
+}
+
+.signature_template .card-header h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: revert;
+    color: #555;
+}
+
+
+.template_one .signature_profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 9px;
+    border: 5px solid #e2dada;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.template_one .signature_profile h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.template_one .signature_profile span {
+    font-size: 13px;
+    color: #888;
+}
+.template_one .social_media ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.template_one .social_media ul li {
+    display: inline-block;
+}
+
+.template_one .social_media ul li a {
+    font-size: 14px;
+    margin: 0px 2px;
+    color: #777;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.template_one .personal_info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.template_one .personal_info ul li {
+    padding: 5px 0px;
+}
+
+.template_one .personal_info ul li a {
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #EEE;
+}
+
+.template_one .personal_info ul li a i {
+    padding-right: 4px;
+}
+
+.template_one .address {
+    margin: 27px 0px;
+}
+
+.template_one .address h5 {font-size: 13px;font-weight: 700;margin: 0;padding-bottom: 5px;}
+
+.template_one .address p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer_text p{
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.signature_template .card-footer {
+    background: #EEE;
+    border: none;
+}
+
+.signature_template .card-footer a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signature_template .card-footer a i {
+    padding-right: 3px;
+}
+
+.signature_template .card-footer a:hover {
+    color: #ed6b4d;
+}
+
+.template_two .signature_profile {
+    margin-right: 30px;
+}
+
+.template_two .signature_profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+}
+
+
+.template_two .social_icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.template_two .social_icon ul li {
+    display: inline-block;
+}
+
+.template_two .social_icon ul li a {
+    color: #0D6EFD;
+    font-size: 16px;
+    margin: 0px 6px;
+}
+.template_two .signature_profile h2 {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.template_two .signature_profile span {
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+}
+
+.template_two .signature_list {
+    border-bottom: 1px solid #EEE;
+    padding: 8px 0px;
+}
+
+.template_two .signature_list span {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.template_two .signature_list h5 {
+    color: #888;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.template_three .signature_profile {
+    margin-right: 30px;
+}
+
+.template_three .signature_profile img {
+    border-radius: 4px;
+    border: 4px solid #ffffff;
+    width: 80px;
+    height: 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.template_three .signature_profile h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.template_three .signature_profile span {
+    font-size: 13px;
+    color: #888;
+}
+
+.template_three .signature_list {
+    margin: 26px 0px 24px 0px !important;
+}
+
+
+.template_three .social_icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.template_three .social_icon ul li {
+    display: inline-block;
+}
+
+.template_three .social_icon ul li a {
+    color: #0D6EFD;
+    font-size: 16px;
+    margin: 0px 6px;
+}
+
+.template_three .signature_list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.template_three .signature_list ul li {
+    padding: 4px 0px;
+}
+
+.template_three .signature_list ul li a {
+    color: #666;
+}
+
+.template_three .signature_list ul li a i {
+    margin-right: 6px;
+    border: 1px solid #f5f5f5;
+    width: 28px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.template_three .social_icon {
+    margin: 0px 0px 26px 0px;
+}
+
+
+.template_three .social_icon ul li a {
+    color: #ed6b4d;
+    font-size: 16px;
+    margin: 0px 3px;
+    border: 1px solid #DDD;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 4px;
+}
+
+
+.template_three .address {
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: rgb(60 64 67 / 17%) 0px 1px 2px 0px, rgb(60 64 67 / 5%) 0px 1px 3px 1px;
+}
+
+.template_three .address h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+
+.template_three .address p {
+    padding: 0px;
+    font-size: 13px;
+    margin: 0;
+    color: #777;
+}
+
+a{
+    text-decoration: none !important;
+}
